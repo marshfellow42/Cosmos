@@ -9,7 +9,7 @@ Um aplicativo de agenda escolar
 - [Uso](#Uso)
 
 ## Equipe:
-| <img src="/assets/images/equipe/Leandro.png" width="25%" > | <img src="/assets/images/equipe/Arthur.jpg" width="25%"> | <img src="/assets/images/equipe/Vitória.jpg" width="25%"> | <img src="/assets/images/equipe/Lucas_Costa.jpg" width="25%"> | <img src="/assets/images/equipe/Vinícius.jpg" width="25%"> |
+| <img src="/assets/images/equipe/Leandro.png" > | <img src="/assets/images/equipe/Arthur.jpg"> | <img src="/assets/images/equipe/Vitória.jpg"> | <img src="/assets/images/equipe/Lucas_Costa.jpg"> | <img src="/assets/images/equipe/Vinícius.png"> |
 | :---: | :---: | :---: | :---: | :---: |
 | [Leandro](https://github.com/marshfellow42) | [Arthur](https://github.com/ArthurDev-A) | [Vitória](https://github.com/VickyOliver) | [Lucas Costa](https://github.com/LucasCostaMrq) | [Vinícius](https://github.com/Vinimango) |
 
