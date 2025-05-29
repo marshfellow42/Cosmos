@@ -4,6 +4,7 @@
 Um aplicativo de agenda escolar
 
 <!-- - [Funcionamento](#Funcionamento) -->
+- [Equipe](#Equipe)
 - [Tecnologias](#Tecnologias)
 - [Instalação](#Instalação)
 - [Uso](#Uso)
