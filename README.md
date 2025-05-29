@@ -10,9 +10,7 @@ Um aplicativo de agenda escolar
 
 ## Tecnologias:
 <div flex-direction="row">
-  <img height="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
   <img height="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-  <img height="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" />
   <img height="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
 </div>
 <br>
@@ -50,14 +48,11 @@ Salvando, a senha será armazenada na pagina de "Minhas senhas", nela temos duas
     ```sh
     npm install
     ```
-4. Inicie o projeto com o Expo:
-    ```sh
-    npx expo start
-    ```
 
 ## Uso
 
-1. Execute o comando `npx expo start` no diretório do projeto.
+1. Execute o comando abaixo no diretório do projeto.
+    ```sh
+    npx expo start
+    ```
 2. Escaneie o QR code com o aplicativo Expo Go no seu dispositivo móvel ou execute no emulador de sua preferência.
-<br>
-<br>
