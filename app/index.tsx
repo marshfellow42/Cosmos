@@ -15,12 +15,13 @@ export default function Index() {
         options={{
           headerShown : false,
           tabBarShowLabel: false,
+          title: "Inicio",
           tabBarIcon: ({focused, size, color}) =>{
               if (focused){
-                  return <Ionicons size={size} color={color} name="home"/>
+                  return <Ionicons size={size} color={ "purple" } name="home"/>
               }
               else{
-                  return <Ionicons size={size} color={color} name="home-outline"/>
+                  return <Ionicons size={size} color={"purple"} name="home-outline"/>
               }
           }
       }}
@@ -33,10 +34,10 @@ export default function Index() {
           tabBarShowLabel: false,
           tabBarIcon: ({focused, size, color}) =>{
               if (focused){
-                  return <Ionicons size={size} color={color} name="book"/>
+                  return <Ionicons size={size} color={"purple"} name="book"/>
               }
               else{
-                  return <Ionicons size={size} color={color} name="book-outline"/>
+                  return <Ionicons size={size} color={"purple"} name="book-outline"/>
               }
           }
       }}
@@ -49,10 +50,10 @@ export default function Index() {
           tabBarShowLabel: false,
           tabBarIcon: ({focused, size, color}) =>{
               if (focused){
-                  return <Ionicons size={size} color={color} name="person"/>
+                  return <Ionicons size={size} color={"purple"} name="person"/>
               }
               else{
-                  return <Ionicons size={size} color={color} name="person-outline"/>
+                  return <Ionicons size={size} color={"purple"} name="person-outline"/>
               }
           }
       }}
