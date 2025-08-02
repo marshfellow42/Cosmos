@@ -39,7 +39,7 @@ jobs:
       - name: Run EAS build (production) and wait
         id: eas-build
         run: |
-          eas build --platform android --profile production --non-interactive --wait --json > result.json
+          eas build --platform android --profile production-github --non-interactive --wait --json
 
           build_url=$(jq -r '.[0].artifacts.buildUrl' result.json)
 
