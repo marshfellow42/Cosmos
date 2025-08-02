@@ -11,11 +11,22 @@
     "preview": {
       "distribution": "internal"
     },
-    "production": {
+    "production-github": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "autoIncrement": true
+    },
+    "production-play_store": {
+      "distribution": "store",
+      "android": {
+        "buildType": "app-bundle"
+      },
       "autoIncrement": true
     }
   },
   "submit": {
-    "production": {}
+    "production-play_store": {}
   }
 }
