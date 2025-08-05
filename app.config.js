@@ -21,7 +21,7 @@ export default {
       },
       "edgeToEdgeEnabled": true,
       "package": "com.luar6.cosmos",
-      "googleServicesFile": process.env.GOOGLE_SERVICES_JSON || "./google-services.json"
+      "googleServicesFile": process.env.GOOGLE_SERVICES_JSON || "./android/app/google-services.json"
     },
     "web": {
       "bundler": "metro",
