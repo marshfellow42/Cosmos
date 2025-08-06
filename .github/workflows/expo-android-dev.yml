@@ -40,6 +40,30 @@ jobs:
           expo-version: latest
           eas-version: latest
 
+      - name: Show current working directory
+        run: pwd
+
+      - name: List root directory contents
+        run: ls -la
+
+      - name: List android directory contents
+        run: ls -la android
+
+      - name: List android/app directory contents
+        run: ls -la android/app
+
+      - name: Show google-services.json contents (first 30 lines)
+        run: head -n 30 android/app/google-services.json || echo "google-services.json not found or empty"
+
+      - name: Check if google-services.json is valid JSON
+        run: |
+          if [ -f android/app/google-services.json ]; then
+            jq . android/app/google-services.json > /dev/null && echo "Valid JSON" || echo "Invalid JSON"
+          else
+            echo "google-services.json file does not exist"
+          fi
+        shell: bash
+
       - name: Prebuild project
         run: npx expo prebuild --no-install --platform android
 
