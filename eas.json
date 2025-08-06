@@ -6,24 +6,44 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_URL": "EXPO_PUBLIC_API_URL",
+        "EXPO_PUBLIC_API_KEY": "EXPO_PUBLIC_API_KEY",
+        "GOOGLE_SERVICES_JSON": "./android/app/google-services.json"
+      }
     },
     "preview": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_URL": "EXPO_PUBLIC_API_URL",
+        "EXPO_PUBLIC_API_KEY": "EXPO_PUBLIC_API_KEY",
+        "GOOGLE_SERVICES_JSON": "./android/app/google-services.json"
+      }
     },
     "production-github": {
       "distribution": "internal",
       "android": {
         "buildType": "apk"
       },
-      "autoIncrement": true
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_API_URL": "EXPO_PUBLIC_API_URL",
+        "EXPO_PUBLIC_API_KEY": "EXPO_PUBLIC_API_KEY",
+        "GOOGLE_SERVICES_JSON": "./android/app/google-services.json"
+      }
     },
     "production-play_store": {
       "distribution": "store",
       "android": {
         "buildType": "app-bundle"
       },
-      "autoIncrement": true
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_API_URL": "EXPO_PUBLIC_API_URL",
+        "EXPO_PUBLIC_API_KEY": "EXPO_PUBLIC_API_KEY",
+        "GOOGLE_SERVICES_JSON": "./android/app/google-services.json"
+      }
     }
   },
   "submit": {
